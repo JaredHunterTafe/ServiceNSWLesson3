@@ -43,5 +43,5 @@ for (let i = 0; i < array.length; i++) {
     }
     return resultArray;
 }
-}
+
 console.log(searchByChar(people, "a"))

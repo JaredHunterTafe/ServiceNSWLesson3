@@ -43,42 +43,46 @@
 
 // console.log(jared)
 
-// 5
+// // 5
 
-let people = [
-    {
-        name: "Jane",
-        age: 25
-    },
-    {
-        name: "Bob",
-        age: 40
-    },
-    {
-        name: "Dana",
-        age: 46
-    },
-    {
-        name: "Jade",
-        age: 19
-    },
-    {
-        name: "Jim",
-        age: 12
-    }
-]
+// let people = [
+//     {
+//         name: "Jane",
+//         age: 25
+//     },
+//     {
+//         name: "Bob",
+//         age: 40
+//     },
+//     {
+//         name: "Dana",
+//         age: 46
+//     },
+//     {
+//         name: "Jade",
+//         age: 19
+//     },
+//     {
+//         name: "Jim",
+//         age: 12
+//     }
+// ]
 
-let oldestCurrent;
-    for (let i = 0; i < people.length; i++) {
-        let person = people[i]
-        if(oldestCurrent){
-            if(person.age > oldestCurrent.age) {
-                oldestCurrent = person;
-            }
-        } else { 
-            oldestCurrent = person;
+// let oldestCurrent;
+//     for (let i = 0; i < people.length; i++) {
+//         let person = people[i]
+//         if(oldestCurrent){
+//             if(person.age > oldestCurrent.age) {
+//                 oldestCurrent = person;
+//             }
+//         } else { 
+//             oldestCurrent = person;
 
-        }
+//         }
         
-    }
-console.log(oldestCurrent)
+//     }
+// console.log(oldestCurrent)
+
+
+
+
